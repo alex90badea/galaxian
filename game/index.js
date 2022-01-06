@@ -8,9 +8,9 @@ let score = 0;
 let shipImage, bulletImage, enemyImage;
 
 function preload() {
-    shipImage = loadImage('assets/ship.png');
-    bulletImage = loadImage('assets/bullet.png');
-    enemyImage = loadImage('assets/enemies.png');
+    shipImage = loadImage('https://raw.githubusercontent.com/alex90badea/galaxian/main/assets/ship.png');
+    bulletImage = loadImage('https://raw.githubusercontent.com/alex90badea/galaxian/main/assets/bullet.png');
+    enemyImage = loadImage('https://raw.githubusercontent.com/alex90badea/galaxian/main/assets/enemies.png');
 }
 
 // init
