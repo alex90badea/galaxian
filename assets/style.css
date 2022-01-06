@@ -6,8 +6,36 @@ html, body {
   align-items: center;
   justify-content: center;
   background: black;
+  flex-direction: column;
 }
 canvas {
   display: block;
   border: 1px solid #b2e141;
+  order: 1;
+}
+
+.controls {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  order: 2;
+  text-align: center;
+  justify-content: center;
+  color: #fff;
+  align-items: center;
+}
+
+.controls div {
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+}
+.controls div img {
+  margin-right: 5px;
+}
+
+.controls span {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 0 10px;
 }
